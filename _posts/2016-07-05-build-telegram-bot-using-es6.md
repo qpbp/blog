@@ -18,17 +18,17 @@ To get the token for out bot, we need to open [@botfather](https://telegram.me/B
 
 Simply, start create out bot using `/newbot` command and set it name.
 
-![alt text](/images/build-telegram-bot-part-one/set-bot-name.png "Create and set bot name")
+![alt text](/assets/images/build-telegram-bot-part-one/set-bot-name.png "Create and set bot name")
 
 I called the bot like `yearProgress`. After setting name, we will set the username for bot.
 
-![alt text](/images/build-telegram-bot-part-one/set-bot-username.png "Set bot username")
+![alt text](/assets/images/build-telegram-bot-part-one/set-bot-username.png "Set bot username")
 
 Clearly, it's will be a `@yearProgressBot`.
 
 We finished the main 2 steps and now we will get the token for app.
 
-![alt text](/images/build-telegram-bot-part-one/get-bot-token.png "Getting token")
+![alt text](/assets/images/build-telegram-bot-part-one/get-bot-token.png "Getting token")
 
 Succesfully! We are created the new bot, got token and now we can move to project structure and code part.
 
@@ -355,11 +355,11 @@ export default class Progress {
 
 If you kept all points, let's run our bot locally using `npm start`. You should see this: 
 
-![Start bot](/images/build-telegram-bot-part-one/start-bot.png "Create and set bot name")
+![Start bot](/assets/images/build-telegram-bot-part-one/start-bot.png "Create and set bot name")
 
 Let's try to figure out how many time are passed from beginning of year, month, day. For this, open telegram with already developed bot. I wil put the screen with these manipulations: 
 
-![Working bot](/images/build-telegram-bot-part-one/working-bot.png "Working bot")
+![Working bot](/assets/images/build-telegram-bot-part-one/working-bot.png "Working bot")
 
 # Conclusion
 
