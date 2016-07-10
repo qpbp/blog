@@ -205,7 +205,7 @@ export default {
 
 {% endhighlight %}
 
-# Checking messages from user
+## Checking messages from user
 
 The `inputParser` class have only 2 methods for 2 Telegram commands: 
 
@@ -282,7 +282,7 @@ That's all we need for a bot.
 
 Left to tell only about data, which we will send to the user.
 
-# Generate progress data
+## Generate progress data
 
 To play the functionality like in [year-progress](https://twitter.com/year_progress) twitter, we will create two services. The `Progress` which will generate strings like `▓▓▓▓▓▓▓▓▓▓▓░░░░░░ 69%` and the `Time` service. The last one will be working with the time differences and return all values in percents. Why in percents? Because, it comfortable to generate ASCII-progress bars.
 
@@ -366,7 +366,7 @@ export default class Progress {
 }
 {% endhighlight %}
 
-# Run bot locally
+## Run bot locally
 
 If you kept all points, let's run our bot locally using `npm start`. You should see this: 
 
@@ -376,7 +376,7 @@ Let's try to figure out how many time are passed from beginning of year, month, 
 
 ![Working bot](/assets/images/build-telegram-bot-part-one/working-bot.png "Working bot")
 
-# Conclusion
+## Conclusion
 
 As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I miss some details. For example, our bot detects time by the machine, where it working. So, if you located in Europe and will put the bot to USA-servers, you will have the different results. Now, an example working on Heroku server, which located somewhere in Europe. Therefore can be little delays while messaging.
 
