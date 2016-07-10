@@ -385,4 +385,4 @@ own bot from the [repo](https://github.com/qpbp/yearProgressBot/tree/part-one).
 
 P.S. For an idea of this bot, I was inspired by [this](https://twitter.com/year_progress). Dude, if you read this - thanks. With your twitter-project, I saw how many time wasted and decided to write this article.
 
-[Part 2. Deploying Telegram Bot to Heroku]()
+Part 2. Deploying Telegram Bot to Heroku - soon
