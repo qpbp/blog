@@ -1,1 +1,1 @@
-Blog. Build with Kasper theme.
+Blog. Built with Kasper theme.
