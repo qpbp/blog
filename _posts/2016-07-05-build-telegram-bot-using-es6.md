@@ -41,7 +41,7 @@ We created a new folder. To init the Node.js project in folder, run the followin
 npm init
 {% endhighlight %}
 
-You will see several questions in the terminal to answer the questions. After finish, `package.json` will appear in the folder which will contain some dependencies for our project.
+You will see several questions in the terminal to answer. After finish, `package.json` will appear in the folder which will contain some dependencies for our project.
 I already prepared all dependencies for project, so only copy and paste these lines to your `package.json`:
 {% highlight javascript %}
 /* package.json */
@@ -80,7 +80,7 @@ In `scripts` property are located 3 npm-scripts:
 
 The `nodemon` package will help us to quickly rerun project. `Node-telegram-bot-api` will be using for comfortable work with Telegram API.
 
-As a Node.js 6.x not stable yet and not supports all Ecmascript features, we will use Babel. Babel is a compiler which support the latest Javascript features. With some plugins, you can use the latest syntax right now.
+As a Node.js 6 isn't stable yet and not supports all Ecmascript features, we will use Babel. Babel is a compiler which support the latest Javascript features. With some plugins, you can use the latest syntax right now.
 
 We need to create `.babelrc` in root directory, where will describe our presets for Babel:
 
@@ -212,7 +212,7 @@ The `inputParser` class have only 2 methods for 2 Telegram commands:
 1. `/start` - all Telegram bots should have this command. It is the starting point of work with bot.
 2. `/progress` - here we will send the passed time.
 
-We can put these methods directly to `src/lib/messenger.js`, but one of the points of this post, its show how to create a scalable bot. These methods will check which command is сame:
+We can put these methods directly to `src/lib/messenger.js`, but one of the points of this post, its show how to create a scalable bot. These methods will check which command has сome:
 
 {% highlight javascript %}
 /* src/lib/inputParser.js */
