@@ -8,7 +8,7 @@ comments: true
 
 <img src="/assets/images/build-telegram-bot-part-one/preview.jpg" alt="Build a Telegram bot using Node and Babel.js, Pt 1" width="100%">
 
-TTelegram is a big messaging platform, allows users to quickly exchange messages. In June 2015 Telegram team announced the bot platform, so it meant a new market for developers. Using different server-based technologies you can build your own bots with various functionality that can resolve serious business issues and processes or just be fun
+Telegram is a big messaging platform, allows users to quickly exchange messages. In June 2015 Telegram team announced the bot platform, so it meant a new market for developers. Using different server-based technologies you can build your own bots with various functionality that can resolve serious business issues and processes or just be fun
 
 In this article, step-by-step, we will build a simple telegram bot using Node.js and Babel.js. The bot will send the how much time was passed from the begining of year, a month, a day. I hope you could create a couple useful bots for Telegram using my notes, and the time spent reading my article will start a great point to begin your own army of bots. So, let's go.
 
