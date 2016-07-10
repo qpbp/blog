@@ -280,7 +280,7 @@ In every method, we using `bot.sendMessage` method from Telegram` method from Te
 
 That's all we need for a bot. 
 
-Left to tell only about data, which we will send to the user.
+It remained tell only about data, that we will send to the user.
 
 ## Generate progress data
 
