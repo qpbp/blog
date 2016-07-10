@@ -378,7 +378,7 @@ Let's try to figure out how many time are passed from beginning of year, month, 
 
 ## Conclusion
 
-As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I miss some details. For example, our bot detects time by the machine, where it working. So, if you located in Europe and will put the bot to USA-servers, you will have the different results. Now, an example working on Heroku server, which located somewhere in Europe. Therefore can be little delays while messaging.
+As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I miss some details. For example, our bot uses local machine time. So, if you're located in Europe and you put the bot to USA-servers, you will have the different results. Now, an example is working on Heroku server, which located somewhere in Europe. Therefore there can be little delays while messaging.
 
 You can see the working example [here](telegram.me/yearprogressbot) and start build your
 own bot from the [repo](https://github.com/qpbp/yearProgressBot/tree/part-one).
