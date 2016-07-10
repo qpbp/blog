@@ -4,7 +4,7 @@ title: About me
 ---
 
 Hi, there!
-My name is Roman and i'm software consultant. I always keep in attention modern technologies, which help business.
+My name is Roman and i'm software consultant. I always hold attention on modern technologies, which help business, resolve and simplify issues.
 
 Contact me, if you need a help with some of the next:
 
