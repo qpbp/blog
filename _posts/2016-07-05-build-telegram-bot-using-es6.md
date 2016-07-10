@@ -8,9 +8,9 @@ comments: true
 
 <img src="/assets/images/build-telegram-bot-part-one/preview.jpg" alt="Build a Telegram bot using Node and Babel.js, Pt 1" width="100%">
 
-Telegram is a big messaging platform, that allows users to fast messaging. In June 2015 Telegram team announced the bot platform, so it meant a new market for developers. Using different server-based technologies you can build you own bots, with various functionality and which can be fun or resolve serious business issues and processes.
+TTelegram is a big messaging platform, allows users to quickly exchange messages. In June 2015 Telegram team announced the bot platform, so it meant a new market for developers. Using different server-based technologies you can build your own bots with various functionality that can resolve serious business issues and processes or just be fun
 
-In this article, step-by-step, we will build a simple telegram bot using Node.js and Babel.js. The bot will send the how many time is passed from the begining of year, month, day. Hope, using my notes, you will create a couple useful bots for Telegram and the moment when you read this article will be the great point to start your own army of bots. So, let's go.
+In this article, step-by-step, we will build a simple telegram bot using Node.js and Babel.js. The bot will send the how many time was passed from the begining of year, a month, a day. I hope you could create a couple useful bots for Telegram using my notes, and the time spent reading my article will start a great point to begin your own army of bots. So, let's go.
 
 ## Getting token for a new bot
 
@@ -25,7 +25,7 @@ We finished the main 2 steps and now we will get the token for app.
 
 ![alt text](/assets/images/build-telegram-bot-part-one/get-bot-token.png "Getting token")
 
-Successfully! We have created the new bot, got token and now we can move to project structure and code part.
+Successfully! We have created the new bot, have got a token and now we can move to project structure and code part.
 
 ## Setup Node project
 
