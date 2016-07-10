@@ -252,16 +252,16 @@ export default class Command {
   }
 
   getProgress(message, bot) {
-    let yearPercents = time.getYearProgress();
-    let yearProgress = progress.makeProgressString(yearPercents);
+    const yearPercents = time.getYearProgress();
+    const yearProgress = progress.makeProgressString(yearPercents);
 
-    let monthPercents = time.getMonthProgress();
-    let monthProgress = progress.makeProgressString(monthPercents);
+    const monthPercents = time.getMonthProgress();
+    const monthProgress = progress.makeProgressString(monthPercents);
 
-    let dayPercents = time.getDayProgress();
-    let dayProgress = progress.makeProgressString(dayPercents);
+    const dayPercents = time.getDayProgress();
+    const dayProgress = progress.makeProgressString(dayPercents);
 
-    let text =
+    const text =
       "Year:    " + yearProgress + " " + yearPercents + "%\n" +
       "Month: " + monthProgress + " " + monthPercents + "%\n" +
       "Day:     " + dayProgress + " " + dayPercents + "%\n";
