@@ -10,7 +10,7 @@ comments: true
 
 TTelegram is a big messaging platform, allows users to quickly exchange messages. In June 2015 Telegram team announced the bot platform, so it meant a new market for developers. Using different server-based technologies you can build your own bots with various functionality that can resolve serious business issues and processes or just be fun
 
-In this article, step-by-step, we will build a simple telegram bot using Node.js and Babel.js. The bot will send the how many time was passed from the begining of year, a month, a day. I hope you could create a couple useful bots for Telegram using my notes, and the time spent reading my article will start a great point to begin your own army of bots. So, let's go.
+In this article, step-by-step, we will build a simple telegram bot using Node.js and Babel.js. The bot will send the how much time was passed from the begining of year, a month, a day. I hope you could create a couple useful bots for Telegram using my notes, and the time spent reading my article will start a great point to begin your own army of bots. So, let's go.
 
 ## Getting token for a new bot
 
@@ -49,7 +49,7 @@ I already prepared all dependencies for project, so only copy and paste these li
 {
   "name": "year-progress-bot",
   "version": "1.0.0",
-  "description": "The bot to feel how many time you waste.",
+  "description": "The bot to feel how much time you waste.",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node",
@@ -270,7 +270,7 @@ export default class Command {
   }
 
   getHelp(message, bot) {
-    bot.sendMessage(message.from, 'Call the /progress to see how many time you wasted');
+    bot.sendMessage(message.from, 'Call the /progress to see how much time you waste');
   }
 
 }
@@ -303,7 +303,7 @@ export default class Time {
   getYearProgress() {
     //days in the current year
     const yearDays = Math.ceil((new Date(this.currentYear + 1, 0, 1) - this.startDate) / 8.64e7);
-    //how many days passed from year begining
+    //how much days passed from year begining
     const passedDays = Math.ceil((new Date() - this.startDate) / 8.64e7); // 31
     return Math.ceil((passedDays / yearDays) * 100);
   }
@@ -314,7 +314,7 @@ export default class Time {
     const currentMonth = now.getMonth();
     //get month "length"
     const daysInMonth = new Date(this.currentYear, currentMonth, 0).getDate();
-    //how many days passed from month begining
+    //how much days passed from month begining
     const daysSinceStartOfMonth = now.getDate() - 1;
 
     return Math.ceil((daysSinceStartOfMonth / daysInMonth) * 100);
@@ -358,8 +358,7 @@ export default class Progress {
       if (i < percent) { progress.push("▓"); } else { progress.push("░"); }
     }
 
-    progress = progress.join().replace(/\,/g, '');
-    return progress;
+    return progress.join('');
 
   }
 
@@ -372,17 +371,17 @@ If you kept all points, let's run our bot locally using `npm start`. You should 
 
 ![Start bot](/assets/images/build-telegram-bot-part-one/start-bot.png "Create and set bot name")
 
-Let's try to figure out how many time are passed from beginning of year, month, day. For this, open telegram with already developed bot. I wil put the screen with these manipulations: 
+Let's try to figure out how much time are passed from beginning of year, month, day. For this, open telegram with already developed bot. I wil put the screen with these manipulations: 
 
 ![Working bot](/assets/images/build-telegram-bot-part-one/working-bot.png "Working bot")
 
 ## Conclusion
 
-As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I miss some details. For example, our bot uses local machine time. So, if you're located in Europe and you put the bot to USA-servers, you will have the different results. Now, an example is working on Heroku server, which located somewhere in Europe. Therefore there can be little delays while messaging.
+As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I could skip some details. As an example that our bot uses local machine time. So, if you're located in Europe and put the bot to USA-servers, you will have the different results. My example is working on Heroku server, which located somewhere in Europe. Therefore there can be little delays while messaging.
 
-You can see the working example [here](telegram.me/yearprogressbot) and start build your
+You can see the working an example [here](telegram.me/yearprogressbot) and start build your
 own bot from the [repo](https://github.com/qpbp/yearProgressBot/tree/part-one).
 
-P.S. For an idea of this bot, I was inspired by [this](https://twitter.com/year_progress). Dude, if you read this - thanks. With your twitter-project, I saw how many time wasted and decided to write this article.
+P.S. For an idea of this bot, I was inspired by [this](https://twitter.com/year_progress). Dude, if you read this - thanks. With your twitter-project, I saw how much time wasted and decided to write this article.
 
 Part 2. Deploying Telegram Bot to Heroku - soon
