@@ -187,7 +187,7 @@ export default class Messenger {
 }
 {% endhighlight %}
 
-Consider in more detail our constructor. We can run bot in two ways - using **getUpdates** or **Webhooks**. I would recommend visiting the [Official Telegram FAQ ](https://core.telegram.org/bots/api#getting-updates), where you can read more about differences. We will use the Webhooks in production and getUpdates while developing. About why we should using Webhooks in production, I'll tell you more in the next post.
+Consider in more detail our constructor. We can run bot in two ways - using **getUpdates** or **Webhooks**. I would recommend visiting the [Official Telegram FAQ ](https://core.telegram.org/bots/api#getting-updates), where you can read more about differences. We will use the Webhooks in production and getUpdates while developing. Why we should using Webhooks in production I’ll tell you in the next post.
 
 To start work with Telegram API we need to create an instance of [node-telegram-bot-api library](https://github.com/yagop/node-telegram-bot-api). Accordingly with environment we will create an instance with different params. Webhoooks requires a port, a host, and a link, where our application will work. Important note, that for Webhooks, Telegram requires, that your site should have a certificate and working well through https://. 
 
