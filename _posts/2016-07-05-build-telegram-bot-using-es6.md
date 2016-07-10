@@ -18,7 +18,7 @@ To begin, we need to get the token. For this, you need open [@botfather](https:/
 
 ![Creating bot](/assets/images/build-telegram-bot-part-one/set-bot-name.png "Creating bot")
 
-After setting name, we will set the username for the bot. All telegram bot should end with word "bot". Based on this, let's call it like `@yearProgressBot`.
+After setting name, we will set the username for the bot. All telegram bots should end with word "bot". Based on this, let's call it like `@yearProgressBot`.
 ![alt text](/assets/images/build-telegram-bot-part-one/set-bot-username.png "Set bot username")
 
 We finished the main 2 steps and now we will get the token for app.
