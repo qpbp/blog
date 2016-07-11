@@ -379,7 +379,7 @@ Let's try to figure out how much time are passed from beginning of year, month, 
 
 As you see, creating of bots - it's simple and fun. Frankly, it's my first post and I could skip some details. As an example that our bot uses local machine time. So, if you're located in Europe and put the bot to USA-servers, you will have the different results. My example is working on Heroku server, which located somewhere in Europe. Therefore there can be little delays while messaging.
 
-You can see the working an example [here](telegram.me/yearprogressbot) and start build your
+You can see the working an example [here](https://telegram.me/yearprogressbot) and start build your
 own bot from the [repo](https://github.com/qpbp/yearProgressBot/tree/part-one).
 
 P.S. For an idea of this bot, I was inspired by [this](https://twitter.com/year_progress). Dude, if you read this - thanks. With your twitter-project, I saw how much time wasted and decided to write this article.
