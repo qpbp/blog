@@ -2,6 +2,7 @@
 layout: post
 title:  "Build a Telegram bot using Node and Babel.js, Pt 1"
 date:   2016-07-05 20:42:00 +0300
+image: /assets/images/build-telegram-bot-part-one/preview.jpg
 categories: tutorials
 comments: true
 ---

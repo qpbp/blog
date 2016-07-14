@@ -9,7 +9,7 @@ paginate: 15
 baseurl: /
 domain_name: 'http://qpbp.name'
 google_analytics: 'UA-80542312-1'
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
 
 # Details for the RSS feed generator
 url:            'qpbp.name'
