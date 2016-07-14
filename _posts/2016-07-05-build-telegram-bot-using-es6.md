@@ -80,7 +80,7 @@ In `scripts` property are located 3 npm-scripts:
 
 The `nodemon` package will help us to quickly rerun project. `Node-telegram-bot-api` will be using for comfortable work with Telegram API.
 
-As a Node.js 6 isn't stable yet and not supports all Ecmascript features, we will use Babel. Babel is a compiler which support the latest Javascript features. With some plugins, you can use the latest syntax right now.
+To try ES6 syntax, we will use Babel. Babel is a compiler which support the latest Javascript features. With some plugins, you can use the latest syntax right now.
 
 We need to create `.babelrc` in root directory, where will describe our presets for Babel:
 
@@ -384,4 +384,4 @@ own bot from the [repo](https://github.com/qpbp/yearProgressBot/tree/part-one).
 
 P.S. For an idea of this bot, I was inspired by [this](https://twitter.com/year_progress). Dude, if you read this - thanks. With your twitter-project, I saw how much time wasted and decided to write this article.
 
-Part 2. Deploying Telegram Bot to Heroku - soon
+[Part 2. Deploying Telegram Bot to Heroku](/tutorials/2016/07/13/deploying-telegram-bot-to-heroku.html)
