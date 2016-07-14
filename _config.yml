@@ -1,6 +1,6 @@
 name: Roman A. notes
-description: Blogging about stuffs of different sort.
-meta_description: "Development notes, articles"
+description: Some words about software development and around.
+meta_description: "Blog about development, software, business, work"
 
 markdown: kramdown
 highlighter: pygments
