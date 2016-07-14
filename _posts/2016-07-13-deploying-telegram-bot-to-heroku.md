@@ -70,11 +70,11 @@ You can check live logs of application using Heroku Toolbelt, with command:
 heroku logs -t 
 {% endhighlight %}
 
-or using app dashboard
+Or using app dashboard:
 
 ![Logs in heroku app](/assets/images/deploy-telegram-bot-part-two/heroku-logs.png "Logs in heroku app")
 
-## Conclustion
+## Wraping up
 
 In this part, I showed you a summary, how to deploy you bot to Heroku through different ways. The code with `.Procfile` are [here](https://github.com/qpbp/yearProgressBot/tree/part-two). Thanks for reading! Develop and deploy your projects! 
 
