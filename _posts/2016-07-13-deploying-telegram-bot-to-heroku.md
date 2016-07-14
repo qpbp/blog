@@ -3,6 +3,7 @@ layout: post
 title:  "Deploy a Node.js Telegram bot to Heroku, Pt 2"
 date:   2016-07-13 21:42:00 +0300
 image: /assets/images/deploy-telegram-bot-part-two/preview.jpg
+description: In this tutorial we will deploy the telegram bot ...
 categories: tutorials
 comments: true
 ---
