@@ -67,6 +67,7 @@ I already prepared all dependencies for project, so only copy and paste these li
     "babel-preset-es2015": "6.9.0",
     "babel-preset-stage-2": "^6.5.0",
     "babel-register": "^6.9.0",
+    "babel-cli": "^6.10.1",
     "nodemon": "^1.9.2"
   },
   "author": "Roman A",
