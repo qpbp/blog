@@ -74,6 +74,8 @@ I already prepared all dependencies for project, so only copy and paste these li
 }
 {% endhighlight %}
 
+Also, you need install 'babel-cli' globally using npm.
+
 In `scripts` property are located 3 npm-scripts:
 
 *   `npm start` - will run project and if any changes will rerun server
