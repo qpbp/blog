@@ -74,7 +74,7 @@ I already prepared all dependencies for project, so only copy and paste these li
 }
 {% endhighlight %}
 
-Also, you need install 'babel-cli' globally using npm.
+Also, you need install 'babel-cli' global, using npm.
 
 In `scripts` property are located 3 npm-scripts:
 
