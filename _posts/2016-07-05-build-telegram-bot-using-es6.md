@@ -212,6 +212,8 @@ export default {
 
 ## Checking messages from user
 
+[Message class](https://github.com/qpbp/yearProgressBot/blob/part-one/src/lib/message.js) contains single static method to format Telegram message.
+
 The `inputParser` class have only 2 methods for 2 Telegram commands: 
 
 1. `/start` - all Telegram bots should have this command. It is the starting point of work with bot.
