@@ -13,23 +13,23 @@ comments: true
 > Bots can remove the need for people to download new apps on their phones to access services and help make communication with businesses more convenient and organized.
 Facebook Messenger product manager, Seth Rosenberg. 
 
-The bots are hype. It`s really true. And the bot can simplify some processes in your business. You can create a simple catalog of your products, bot for communication with the support team, the notifier bot, which information user about new content on your site and etc. You can ask me, but how I can create it? I need to know programming language for this goal! For this, I can answer you, that I am a software developer, I know how to code the bot, but I decided to create my first Facebook bot without programming because it's EASIER and QUICKLY. I really like flights and not against of pretty flights offers. So, I decided to create a simple notifier about new offers from my favorite flights tickets site. While your paid last money and waiting for a pizza you can create something cool and even monetize it. Leme show you how to make something stuff. Take the concern of this article and build yours!
+The bots are hype. It`s really true. And the bot can simplify some processes in your business. You can create a simple catalog of your products, bot for communication with the support team, the notifier bot, which informate user about new content on your site and etc. You can ask me, but how I can create it? I need to know a programming language for this goal! For this, I can answer you, that I am a software developer, I know how to code bot, but I decided to create my first Facebook bot without programming because it's EASIER and FASTER. I really like flights and not against of pretty flights offers. So, I decided to create a simple notifier about new offers from my favorite flights tickets site. While your paying the last money and waiting for a pizza you can create something cool and even monetize it. Let me show you how to make stuff. Take an idea of this article and build yours!
 
 ## What is ChatFuel? 
 
-The [Chatfuel platform](https://chatfuel.com/) allows everyone user create a bot without any programming. Only you need: login and create. Uber, TechCrunch, National Geographic created bots base on Chatfuel platform. Is it not sounds impressive? Using this service we will create the bot.
+The [Chatfuel platform](https://chatfuel.com/) allows everyone create a bot without any programming. You need only login and create. Uber, TechCrunch, National Geographic created bots based on Chatfuel platform. Is it not sounds impressive? Using this service we will create the bot.
 
 ## Registration and giving name
 
 Go to [ChatFuel.com](https://chatfuel.com/) and connect your Facebook account:
 ![Login](/assets/images/bot-without-programming/login-min.png "Chatfuel login")
 
-After type the name fro your bot and click "Blank Chatbot". You can discover others, already implemented templates:
+After, enter the name for your bot and click "Blank Chatbot". You can discover others, already implemented templates:
 ![Blank bot](/assets/images/bot-without-programming/new-bot-min.png "Blank bot")
 
 ## Site overview
 
-Before the bot creating, I want to make a little break and create a simple overview of the [site](http://www.fly4free.com/), where we will take the cheap tickets. We will need this information while creating the sections in bot.
+Before the creating bot, I want to make a little break and create a simple overview of the [site](http://www.fly4free.com/), where we will take the cheap tickets. We will need this information while creating the sections in bot.
 
 It has a three main categories: The USA, Europe, and Canada. Also, It has the "Last offers" catalog:
 
@@ -41,14 +41,14 @@ Each category is divided into a countries list:
 
 Ok, forgot this for now. We will take it later. Let's continue.
 
-## Creating groups and block
-Before this, please clean all groups on Chatfuel dashboard except "Default" group. It's easy.
+## Creating groups and blocks
+Before this, please clean all groups on Chatfuel dashboard, except "Default" group. It's easy.
 
-Okay, I think we need to start from greetings to the user. Let's change the welcome message block:
+Cool! I think we need to start from greetings to the user. Let's change the "Welcome message" block:
 
 ![Welcome message](/assets/images/bot-without-programming/default-message.png "Welcome message")
 
-Now go to the "Add Group button" and create new "Navigation" group with "Menu" block:
+Now go to the "Add Group" button and create new "Navigation" group with "Menu" block:
 
 ![Navigation menu](/assets/images/bot-without-programming/navigation-menu.png "Navigation menu")
 
@@ -64,13 +64,13 @@ It will look like this:
 
 ![Gallery card](/assets/images/bot-without-programming/gallery-card.png "Gallery card")
 
-But what if people want to see the other offers by areas? It's time for the second block. And yeah, give them some text. Using "Add button", add the "Europe", "Canada", "USA" buttons to the second block. So:
+But, what if people want to see the other offers by areas? It's time for the second block. And yeah, need to give them some text. Using "Add button", add the "Europe", "Canada", "USA" buttons to the second block. So:
 
 ![Areas Navigation](/assets/images/bot-without-programming/areas-navigation.png "Areas Navigation")
 
-To use areas navigation, we need to create 3 buttons (areas) to their blocks. Then, create another group calling "Areas". It's better to not have all in a heap. And now I will explain, how we start to get the information about tickets. I will demonstrate it in one example with description step by step:
+To use areas navigation, we need to create 3 buttons (areas) to their blocks. Then, create another group called "Areas". It's better to not keep all in a heap. And now I will explain, how we start get the information about tickets. I will demonstrate it in one example with description, step by step:
 
-1. Creating "Europe" block and choose the "Plugins":
+1. Create "Europe" block and choose the "Plugins":
 ![Creating Europe Block](/assets/images/bot-without-programming/creating-europe-block.png "Creating Europe Block")
 
 2. Choose "RSS import" plugin:
@@ -85,16 +85,16 @@ To use areas navigation, we need to create 3 buttons (areas) to their blocks. Th
 7. Connect buttons in "Menu" with new blocks.
 ![Menu items](/assets/images/bot-without-programming/menu-items.png "Menu items")
 
-That's all. What did we do in step 5? It's called RSS (wiki) and on many-many resources, you can test it, if you paste "feed" or "RSS" after the last slash in the address bar. I said that article will be without programming, so you can google these stuff and educate yourself.
+That's all. What did we do in step 5? It's called RSS (wiki) and on many-many resources, you can test it, if you paste "feed" or "RSS" after the last slash in the address bar. I said that article will be without programming, so you can to google these stuff and educate yourself.
 
 Awesome. Repeat the previous 1-6 instructions to "Canada", "USA", "Last offers" blocks.
 P.S. for the "Last offers" the link will be http://www.fly4free.com/feed/ if you stuck.
 
-P.P.S. you can upload images in galleries. But in this tutorial we do without them:
+P.P.S. you can upload images in galleries. But in this tutorial we do without them.
 
 ## Connecting with Zapier
 
-To have the latest offers almost immediately we try to use the Chatfuel integration with [Zapier](https://zapier.com). I don't want to discuss Zapier. It's hype too :) And it's very useful to quick bootstrap your product by using any integrations. 
+To get the latest offers almost immediately we try to use the Chatfuel integration with [Zapier](https://zapier.com). I don't want to discuss Zapier. It's hype too :) And it's very useful to quick bootstrap your product by using any integrations. 
 
 Instruction:
 
@@ -127,7 +127,7 @@ Instruction:
 16. After the successfull test, click "Finish" and give the name for your new Zap.
 ![Chatfuel success](/assets/images/bot-without-programming/chatfuel-success.png "Chatfuel success") 
 
-That's all! Now Zapier will check the site with tickets every 15 minutes and if found something new, should send all directly into Messenger. On the one hand, it's cool, because of more offers - more chance to find something for you, but on the other hand, many offers can discharge your device :)
+Now Zapier will check the site with tickets every 15 minutes and if found something new, will send all directly into Messenger. On the one hand, it's cool, because if more offers - more chance to find something for you, but on the other hand, many offers can discharge your device :)
 
 ## Monetization
 
@@ -142,16 +142,16 @@ As you made all steps up to this point, it's will be simple for you:
 ![Partner blocks](/assets/images/bot-without-programming/partner-blocks.png "Partner blocks")
 
 3. A **donation block**
-You can go to any site, where it's quick to create donation form and paste link to a new block:
+You can go to any site, where can quickly to create donation form and paste link to a new block:
 ![Donation block](/assets/images/bot-without-programming/donation-block.png "Donation block")
 
-Actually, **have you an ideas about** the 4,5... etc points? Could you write about that in comments? Thank you! 
+Actually, **do have you any ideas about** the 4,5... etc points? Could you write about that in comments? Thank you! 
 
 ## Wrapping Up
 
-As you have seen in this tutorial, if you have an idea for a bot you can easily bootstrap it and you don't need any programming or even technical skills. Just take an idea and build the stuff what you need. The Chatfuel + Zapier is very powerfull instruments which help you to achieve this goal.
+As you have seen in this tutorial, if you have an idea for a bot you can easily bootstrap it and you don't need any programming or even technical skills. Just take an idea and build the stuff, what you need. The Chatfuel + Zapier is very powerful instruments which help you to achieve this goal.
 
-But it's not all wine and roses. For now your thoughts about sophisticated bot may evaporate, because not all features what you wish now in Chatfuel+Zapier. And for using many features of Zapier you need some money, but for starting bot will be enough the free plan and then you can decide. 
+But it's not all wine and roses. Your thoughts about sophisticated bot may evaporate, because not all features what you wish now in Chatfuel+Zapier. Seems it's only question of time. And for using many features of Zapier you need some money, but for new bot will be enough the free plan and then you can decide. 
 
 If you have an idea of a complicated bot, need some consulting about bots, your developer is ripping off - contact with me [here](mailto:qpbp@yandex.ua?subject=Complicated bot). Thanks! 
 
