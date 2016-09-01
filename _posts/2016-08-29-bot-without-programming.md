@@ -88,6 +88,7 @@ To use areas navigation, we need to create 3 buttons (areas) to their blocks. Th
 That's all. What did we do in step 5? It's called RSS (wiki) and on many-many resources, you can test it, if you paste "feed" or "RSS" after the last slash in the address bar. I said that article will be without programming, so you can to google these stuff and educate yourself.
 
 Awesome. Repeat the previous 1-6 instructions to "Canada", "USA", "Last offers" blocks.
+
 P.S. for the "Last offers" the link will be http://www.fly4free.com/feed/ if you stuck.
 
 P.P.S. you can upload images in galleries. But in this tutorial we do without them.
