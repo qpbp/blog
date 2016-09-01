@@ -145,7 +145,7 @@ As you made all steps up to this point, it's will be simple for you:
 You can go to any site, where can quickly to create donation form and paste link to a new block:
 ![Donation block](/assets/images/bot-without-programming/donation-block.png "Donation block")
 
-Actually, **do have you any ideas about** the 4,5... etc points? Could you write about that in comments? Thank you! 
+Actually, **do you have any ideas about** the 4,5... etc points? Could you write about that in comments? Thank you! 
 
 ## Wrapping Up
 
