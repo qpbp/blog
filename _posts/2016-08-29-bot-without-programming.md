@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What FB Messenger Bot you can do for a 0$ and 15 min?"
+title:  "What FB Messenger Bot you can do for $0 and 15 min?"
 date:   2016-08-29 20:42:00 +0300
 image: /assets/images/build-telegram-bot-part-one/preview.jpg
 description: In this tutorial we will get the cheapest and coolest offers...
