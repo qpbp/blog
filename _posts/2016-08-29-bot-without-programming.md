@@ -130,6 +130,8 @@ Instruction:
 
 Now Zapier will check the site with tickets every 15 minutes and if found something new, will send all directly into Messenger. On the one hand, it's cool, because if more offers - more chance to find something for you, but on the other hand, many offers can discharge your device :)
 
+[Try it](www.facebook.com/fly4freebot).
+
 ## Monetization
 
 What can you do to monetize bot like we built? I found a 3 ways:
