@@ -152,7 +152,7 @@ Actually, **do you have any ideas about** the 4,5... etc points? Could you write
 
 As you have seen in this tutorial, if you have an idea for a bot you can easily bootstrap it and you don't need any programming or even technical skills. Just take an idea and build the stuff, what you need. The Chatfuel + Zapier is very powerful instruments which help you to achieve this goal.
 
-But it's not all wine and roses. Your thoughts about sophisticated bot may evaporate, because not all features what you wish now in Chatfuel+Zapier. Seems it's only question of time. And for using many features of Zapier you need some money, but for new bot will be enough the free plan and then you can decide. 
+But it's not all wine and roses. Your thoughts about sophisticated bot may evaporate, because not all features what you wish now in Chatfuel+Zapier. Seems it's only question of time. And for using many features of Zapier you need some money, but for a new bot will be enough the free plan and then you can decide. 
 
 If you have an idea of a complicated bot, need some consulting about bots, your developer is ripping off - contact with me [here](mailto:qpbp@yandex.ua?subject=Complicated bot). Thanks! 
 
