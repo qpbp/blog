@@ -10,7 +10,8 @@ comments: true
 
 <img src="/assets/images/bot-without-programming/preview.png" alt="Build a FB Messenger bot without programming" width="100%">
 
-> Facebook Messenger product manager Seth Rosenberg said that bots can remove the need for people to download new apps on their phones to access services and help make communication with businesses more convenient and organized.
+> Bots can remove the need for people to download new apps on their phones to access services and help make communication with businesses more convenient and organized.
+Facebook Messenger product manager, Seth Rosenberg. 
 
 The bots are hype. It`s really true. And the bot can simplify some processes in your business. You can create a simple catalog of your products, bot for communication with the support team, the notifier bot, which information user about new content on your site and etc. You can ask me, but how I can create it? I need to know programming language for this goal! For this, I can answer you, that I am a software developer, I know how to code the bot, but I decided to create my first Facebook bot without programming because it's EASIER and QUICKLY. I really like flights and not against of pretty flights offers. So, I decided to create a simple notifier about new offers from my favorite flights tickets site. While your paid last money and waiting for a pizza you can create something cool and even monetize it. Leme show you how to make something stuff. Take the concern of this article and build yours!
 
