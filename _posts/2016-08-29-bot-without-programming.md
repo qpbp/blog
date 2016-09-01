@@ -144,7 +144,7 @@ As you made all steps up to this point, it's will be simple for you:
 You can go to any site, where it's quick to create donation form and paste link to a new block:
 ![Donation block](/assets/images/bot-without-programming/donation-block.png "Donation block")
 
-Actually, **have you an ideas about** the 4,5... etc points. Could you write about that in comments? 
+Actually, **have you an ideas about** the 4,5... etc points? Could you write about that in comments? Thank you! 
 
 ## Wrapping Up
 
@@ -152,5 +152,5 @@ As you have seen in this tutorial, if you have an idea for a bot you can easily 
 
 But it's not all wine and roses. For now your thoughts about sophisticated bot may evaporate, because not all features what you wish now in Chatfuel+Zapier. And for using many features of Zapier you need some money, but for starting bot will be enough the free plan and then you can decide. 
 
-If you have an idea of a complicated bot, need some consulting about bots, your developer is ripping off - contact with me [here](mailto:qpbp@yandex.ua). Thanks! 
+If you have an idea of a complicated bot, need some consulting about bots, your developer is ripping off - contact with me [here](mailto:qpbp@yandex.ua?subject=Complicated bot). Thanks! 
 
