@@ -138,11 +138,11 @@ What can you do to monetize bot like we built? I found a 3 ways:
 You can look around many travel partner programs and just add a new button in card under new flight offers:
 ![Partner links](/assets/images/bot-without-programming/partner-links.png "Partner links")
 
-2. A **partner blocks** in menu
+2. A **partner blocks** in menu.
 As you made all steps up to this point, it's will be simple for you:
 ![Partner blocks](/assets/images/bot-without-programming/partner-blocks.png "Partner blocks")
 
-3. A **donation block**
+3. A **donation block**.
 You can go to any site, where can quickly to create donation form and paste link to a new block:
 ![Donation block](/assets/images/bot-without-programming/donation-block.png "Donation block")
 
